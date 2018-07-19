@@ -7,7 +7,8 @@ def my_select(collection)
    arr_clone = []
    counter = 0
    while counter < collection.length
-     arr_clone << yield(collection[counter])
+    if yield(collection[counter])
+      arr_clone << collection[counter]
      counter += 1
    end
     return arr_clone
