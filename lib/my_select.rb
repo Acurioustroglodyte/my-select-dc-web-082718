@@ -8,6 +8,6 @@ def my_select(collection)
      arr_clone[counter] = yield collection[counter]
      counter += 1
    end
+    return arr_clone
  end
- return arr_clone
 end
