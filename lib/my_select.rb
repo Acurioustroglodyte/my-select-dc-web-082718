@@ -1,5 +1,5 @@
 def my_select(collection)
- if collection == null || collection.size == 0
+ if collection.size == 0
    return false
  else
    arr_clone = []
