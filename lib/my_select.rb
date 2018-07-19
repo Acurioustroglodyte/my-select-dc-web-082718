@@ -9,4 +9,5 @@ def my_select(collection)
      counter += 1
    end
  end
+ return arr_clone
 end
